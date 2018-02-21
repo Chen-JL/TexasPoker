@@ -15,8 +15,6 @@ poker = ['2S', '2C', '2D', '2H',
          'KS', 'KC', 'KD', 'KH',
          'AS', 'AC', 'AD', 'AH']
 hand0 = random.sample(poker, 2)
-hand1 = random.sample(poker, 5)
-hand2 = random.sample(poker, 5)
 for i in poker:
     if i in hand0:
         poker.remove(i)
